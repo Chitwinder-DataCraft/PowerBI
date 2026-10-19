@@ -1,0 +1,20 @@
+relationship b2bbb13e-5d3d-42fe-a88a-90f24ad73c1b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: gantt-data.ActualStart
+	toColumn: LocalDateTable_74318dca-b6b6-4cf0-b634-2d4d5fde0cd0.Date
+
+relationship 7402b996-c80c-4bd9-8531-a33e93c0bbdc
+	joinOnDateBehavior: datePartOnly
+	fromColumn: gantt-data.PlannedStart
+	toColumn: LocalDateTable_f97c0594-2bd1-4010-a9d4-0c7bc9966239.Date
+
+relationship 5f3eddda-819b-49de-a9c4-ad1edc116ed9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: gantt-data.PlannedEnd
+	toColumn: LocalDateTable_f97e0bc3-a134-4b42-a91c-7dd476e14d0f.Date
+
+relationship efd425d2-5e03-4f80-9de0-d4eec0c5902a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: gantt-data.ActualEnd
+	toColumn: LocalDateTable_305588cd-8033-496a-8bcb-8e227dd55180.Date
+

@@ -1,0 +1,171 @@
+table _Measures
+	lineageTag: 0b8c2f99-e21e-404f-a298-10bc23d4c10f
+
+	measure PercentComplete =
+			
+			MAX('gantt-data'[Progress])
+		formatString: 0
+		lineageTag: b7166aa7-e3bc-4d02-abe3-1823058c1bda
+
+	measure StartDate = ```
+			
+			MIN('gantt-data'[ActualStart])
+			
+			```
+		formatString: yyyy-mm
+		lineageTag: 52161c5a-5fe1-420b-adf8-cc942a893ba3
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	measure EndDate = ```
+			
+			VAR StartVal = MIN('gantt-data'[ActualStart])
+			VAR EndVal   = MAX('gantt-data'[ActualEnd])
+			RETURN
+			    IF(
+			        StartVal = EndVal || ISBLANK(EndVal),
+			        BLANK(),   -- milestone (diamond) when Start = End or End missing
+			        EndVal     -- otherwise return the latest end date
+			    )
+			
+			```
+		formatString: yyyy-mm
+		lineageTag: c5bf30d6-e1e5-41eb-a63a-60bece53e6ba
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	measure PlannedStartDate =
+			
+			MIN('gantt-data'[PlannedStart])
+		formatString: General Date
+		lineageTag: 0d2ae800-7f84-44c8-8066-f3655814707e
+
+	measure PlannedEndDate =
+			
+			MAX('gantt-data'[PlannedEnd])
+		formatString: General Date
+		lineageTag: b56cfb83-60c9-4961-8c88-ec9b48c6a727
+
+	measure DelayStatus =
+			
+			IF(
+			    MAX('gantt-data'[ActualEnd]) > MAX('gantt-data'[PlannedEnd]),
+			    "Delayed",
+			    "On Time"
+			)
+		lineageTag: b1ae898a-727e-49b8-b79b-b9d78fc2cf8f
+
+	measure 'Total Tasks' =
+			
+			DISTINCTCOUNT ( 'gantt-data'[Sub Task] ) -1
+		formatString: 0
+		lineageTag: 295e4589-fcba-4b68-8385-89ca2fddc5f0
+
+	measure 'Total Phases' =
+			
+			COUNTROWS(
+			    FILTER(
+			        VALUES('gantt-data'[Task]),
+			        NOT ISBLANK('gantt-data'[Task])
+			            && 'gantt-data'[Task] <> ""
+			    )
+			)
+		formatString: 0
+		lineageTag: 657713e5-7223-44a2-98fa-9b2412e56ccd
+
+	measure 'Timeline Range' =
+			
+			VAR _StartDate =
+			    MIN('gantt-data'[PlannedStart])
+			VAR _EndDate =
+			    MAX('gantt-data'[PlannedEnd])
+			RETURN
+			    IF(
+			        ISBLANK(_StartDate) || ISBLANK(_EndDate),
+			        BLANK(),
+			        IF(
+			            YEAR(_StartDate) = YEAR(_EndDate),
+			            FORMAT(_StartDate, "mmm")
+			                & "–"
+			                & FORMAT(_EndDate, "mmm yyyy"),
+			            FORMAT(_StartDate, "mmm yyyy")
+			                & "–"
+			                & FORMAT(_EndDate, "mmm yyyy")
+			        )
+			    )
+		lineageTag: 59871e38-2280-46b1-b2ac-7188140d5fed
+
+	measure 'Calendar Days' =
+			
+			DATEDIFF ( MIN ( 'gantt-data'[ActualStart] ), MAX ( 'gantt-data'[ActualEnd] ), DAY ) + 1
+		formatString: 0
+		lineageTag: 8f81b54f-88dd-4346-a1cd-e7d83b617477
+
+	measure 'Duration Weeks' = ```
+			DIVIDE ( [Calendar Days], 7 ) 
+			```
+		formatString: 0
+		lineageTag: 61c419cd-8137-4cc3-859b-270236556863
+
+	measure DurationLabel = ```
+			
+			FORMAT(
+			    DATEDIFF(
+			        MIN('gantt-data'[ActualStart]),
+			        MAX('gantt-data'[ActualEnd]),
+			        DAY
+			    ) + 1,
+			    "0"
+			) & "d"
+			
+			```
+		lineageTag: 60939b83-4831-49f9-a095-3a6ab601cd39
+
+	measure TaskStatus =
+			
+			SWITCH(
+			    TRUE(),
+			    MAX('gantt-data'[Progress]) = 100, "Completed",
+			    MAX('gantt-data'[Progress]) >= 50, "In Progress",
+			    MAX('gantt-data'[Progress]) > 0, "Started",
+			    "Not Started"
+			)
+		lineageTag: 24126fdc-354b-411e-8cd8-218ca4bd191d
+
+	measure WeekRangeLabel = ```
+			
+			VAR StartDate = MIN('gantt-data'[ActualStart])
+			VAR EndDate   = MAX('gantt-data'[ActualEnd])
+			VAR StartWeek = WEEKNUM(StartDate)
+			VAR EndWeek   = WEEKNUM(EndDate)
+			RETURN
+			    "Week " & StartWeek & " - Week " & EndWeek
+			
+			```
+		lineageTag: c733da9c-d32d-4756-b8f4-2d7b27fbd199
+
+	measure DateRangeLabel = ```
+			
+			VAR StartDate = MIN('gantt-data'[ActualStart])
+			VAR EndDate   = MAX('gantt-data'[ActualEnd])
+			RETURN
+			    FORMAT(StartDate, "MMM d") & " - " & FORMAT(EndDate, "MMM d")
+			
+			```
+		lineageTag: 29d63c1b-1877-43a9-8a7b-c9e5e6a05bfd
+
+	column Value
+		formatString: 0
+		lineageTag: 0223f8ad-cd79-4672-860f-2dda436add8b
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = calculated
+		mode: import
+		source = {1}
+
+	annotation PBI_Id = 42572ede7ce14e35a8e572649eee707d
+

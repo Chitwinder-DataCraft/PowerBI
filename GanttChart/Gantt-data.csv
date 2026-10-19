@@ -1,0 +1,17 @@
+Task,Sub Task,ActualStart,ActualEnd,Progress,Resource Name,ConnectTo,PlannedStart,PlannedEnd
+PROJECT DELIVERY,Project Kickoff,01-Jan-26,05-Jan-26,100,Jack,,01-Jan-26,05-Jan-26
+PROJECT DELIVERY,Requirements Gathering,06-Jan-26,12-Jan-26,90,Earl King,,06-Jan-26,12-Jan-26
+PROJECT DELIVERY,Technical Specification,13-Jan-26,24-Jan-26,75,Matthew,,13-Jan-26,24-Jan-26
+PROJECT DELIVERY,Architecture Review,25-Jan-26,31-Jan-26,60,Randy,,25-Jan-26,31-Jan-26
+,,,,,,,,
+SOLUTION DELIVERY,Database Design,01-Feb-26,10-Feb-26,80,Larry,,01-Feb-26,10-Feb-26
+SOLUTION DELIVERY,API Development,11-Feb-26,20-Feb-26,65,Laura,Database Design,11-Feb-26,20-Feb-26
+SOLUTION DELIVERY,Frontend Development,21-Feb-26,05-Mar-26,50,Marin,API Development,21-Feb-26,05-Mar-26
+SOLUTION DELIVERY,Integration,06-Mar-26,15-Mar-26,40,John,Frontend Development,06-Mar-26,15-Mar-26
+,,,,,,,,
+QUALITY ASSURANCE,Unit Testing,16-Mar-26,22-Mar-26,30,Mai,Integration,16-Mar-26,22-Mar-26
+QUALITY ASSURANCE,Integration Testing,23-Mar-26,29-Mar-26,20,Larry,Unit Testing,23-Mar-26,29-Mar-26
+QUALITY ASSURANCE,User Acceptance Testing,30-Mar-26,05-Apr-26,10,Earl King,Integration Testing,30-Mar-26,05-Apr-26
+,,,,,,,,
+RELEASE MANAGEMENT,Production Deployment,06-Apr-26,10-Apr-26,0,Randy,User Acceptance Testing,06-Apr-26,10-Apr-26
+RELEASE MANAGEMENT,Go Live,11-Apr-26,15-Apr-26,0,Jack,Production Deployment,11-Apr-26,15-Apr-26

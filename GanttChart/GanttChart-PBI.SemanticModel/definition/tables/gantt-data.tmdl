@@ -1,0 +1,162 @@
+table gantt-data
+	lineageTag: d38bf898-a91f-49ff-accc-4303b47331be
+
+	column Task
+		dataType: string
+		lineageTag: 0d4ad06e-5d09-4504-a662-85e1f92860b9
+		summarizeBy: none
+		sourceColumn: Task
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sub Task'
+		dataType: string
+		lineageTag: 373229fb-2616-45bc-b229-bcd2fb05e33c
+		summarizeBy: none
+		sourceColumn: Sub Task
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualStart
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 2290aa9e-1a8e-40dc-9bfd-33a39ad9b395
+		summarizeBy: none
+		sourceColumn: ActualStart
+
+		variation Variation
+			isDefault
+			relationship: b2bbb13e-5d3d-42fe-a88a-90f24ad73c1b
+			defaultHierarchy: LocalDateTable_74318dca-b6b6-4cf0-b634-2d4d5fde0cd0.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ActualEnd
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a57c6165-c1b7-49e7-83a4-013f7170911d
+		summarizeBy: none
+		sourceColumn: ActualEnd
+
+		variation Variation
+			isDefault
+			relationship: efd425d2-5e03-4f80-9de0-d4eec0c5902a
+			defaultHierarchy: LocalDateTable_305588cd-8033-496a-8bcb-8e227dd55180.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Progress
+		dataType: int64
+		formatString: 0
+		lineageTag: 85d4b4b9-3baa-4d7b-8f6e-82a2558121f7
+		summarizeBy: sum
+		sourceColumn: Progress
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Resource Name'
+		dataType: string
+		lineageTag: d5bac586-d36f-4345-940c-bcde6d056ed8
+		summarizeBy: none
+		sourceColumn: Resource Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column ConnectTo
+		dataType: string
+		lineageTag: 6c33c4de-f28e-4238-89fd-a6ac3ebd9d58
+		summarizeBy: none
+		sourceColumn: ConnectTo
+
+		annotation SummarizationSetBy = Automatic
+
+	column PlannedStart
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ff82a2cd-4dbd-4626-b33b-d5a65df9afa3
+		summarizeBy: none
+		sourceColumn: PlannedStart
+
+		variation Variation
+			isDefault
+			relationship: 7402b996-c80c-4bd9-8531-a33e93c0bbdc
+			defaultHierarchy: LocalDateTable_f97c0594-2bd1-4010-a9d4-0c7bc9966239.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column PlannedEnd
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: f087c13a-4110-47a6-a1c8-9cdd24cbb735
+		summarizeBy: none
+		sourceColumn: PlannedEnd
+
+		variation Variation
+			isDefault
+			relationship: 5f3eddda-819b-49de-a9c4-ad1edc116ed9
+			defaultHierarchy: LocalDateTable_f97e0bc3-a134-4b42-a91c-7dd476e14d0f.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Task Label' =
+			
+			VAR Days = DATEDIFF ( 'gantt-data'[ActualStart], 'gantt-data'[ActualEnd], DAY ) + 1
+			VAR DateText =
+			    IF (
+			        MONTH ( 'gantt-data'[ActualStart] ) = MONTH ( 'gantt-data'[ActualEnd] ),
+			        FORMAT ( 'gantt-data'[ActualStart], "MMM d" ) & "–" & FORMAT ( 'gantt-data'[ActualEnd], "d" ),
+			        FORMAT ( 'gantt-data'[ActualStart], "MMM d" ) & "–" & FORMAT ( 'gantt-data'[ActualEnd], "MMM d" )
+			    )
+			RETURN
+			    'gantt-data'[Task] & "   |   " & DateText & "   |   " & Days & "d"
+		lineageTag: a44f782c-89bc-4d2c-ab44-fca04bff3297
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Phase Color' =
+			
+			SWITCH (
+			    'gantt-data'[Task],
+			    "Project Delivery", "#3F3FB5",
+			    "Solution Delivery", "#0F766E",
+			    "Quality Assurance", "#B45309",
+			    "Release Management", "#BE123C",
+			    "#6B7280"
+			)
+		lineageTag: 8a54a676-592c-4f63-afbc-21acfeb7e47a
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Task Hierarchy'
+		lineageTag: bbbcb2c6-20ac-48f5-a4a1-ee6afa9815b7
+
+		level Task
+			lineageTag: d53969de-5983-4d25-a3ac-8b1ec6c13dea
+			column: Task
+
+		level 'Sub Task'
+			lineageTag: a92f8585-5dd9-4aa0-bbd4-27376f50b288
+			column: 'Sub Task'
+
+	partition gantt-data = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\dell\Downloads\GanttChart-PowerBI\gantt-data.csv"), [Delimiter = ",", Columns = 9, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Task", type text}, {"Sub Task", type text}, {"ActualStart", type date}, {"ActualEnd", type date}, {"Progress", Int64.Type}, {"Resource Name", type text}, {"ConnectTo", type text}, {"PlannedStart", type date}, {"PlannedEnd", type date}})
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

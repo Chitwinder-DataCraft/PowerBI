@@ -1,0 +1,7235 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "ganttdata": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gantt-data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gantt data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gantt-information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "gantt-fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "gantt-info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "gantt-statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "gantt information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gantt fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gantt info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gantt statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gantt-document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "gantt-figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.task": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "Task"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "task": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "chore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "errand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "job": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "commission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "undertaking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "brief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.sub_task": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "Sub Task"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sub task": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sub chore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub assignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub errand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub job": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub mission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub commission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub undertaking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub brief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Tasks": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.actual_start": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "ActualStart"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual start": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ActualStart": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "real start": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "existent start": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "tangible start": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "actual twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_start.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual start date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "start date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_start.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual start year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual start yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "start yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "real start year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "existent start year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "tangible start year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_start.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual start quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual start qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "start qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "real start quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "existent start quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "tangible start quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_start.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual start month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual start mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "start mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "real start month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "existent start month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "tangible start month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_start.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual start day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "real start day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "existent start day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "tangible start day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_end": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "ActualEnd"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual end": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ActualEnd": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "end": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual completion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "actual conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "actual expiration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "completion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "expiration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "actual close": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "actual finish": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "actual last": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "actual stop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.progress": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "Progress"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "progress": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "development": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "growth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "advancement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "improvement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "headway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "movement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evolvement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.resource_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "Resource Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resource name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "resource": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "resource nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "resource title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "resource label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "resource tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "reserve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "supply": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "source": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.connect_to": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "ConnectTo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "connect to": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ConnectTo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.planned_start": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "PlannedStart"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned start": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PlannedStart": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "planned jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "planned jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "planned flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "planned jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_start.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned start date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "start date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_start.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned start year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned start yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "start yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_start.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned start quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned start qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "start qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_start.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned start month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned start mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "start mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_start.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedStart",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned start day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "start day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_end": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "PlannedEnd"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned end": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PlannedEnd": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "end": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned completion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "planned conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "planned expiration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "completion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "expiration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "planned close": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "planned finish": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "planned last": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "planned stop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_end.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned end date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_end.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned end year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned end yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "end yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "planned completion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned conclusion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned expiration year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "planned close year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_end.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned end quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned end qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "end qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "planned completion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned conclusion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned expiration quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "planned close quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_end.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned end month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned end mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "end mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "planned completion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned conclusion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned expiration month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "planned close month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.planned_end.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "PlannedEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned end day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "planned completion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned conclusion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned expiration day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "planned close day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "planned finish day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "planned last day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "planned stop day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.task_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "Hierarchy": "Task Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "task hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "task ladder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "task grading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "task order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "task pyramid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ladder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pyramid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.task_hierarchy.task": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "Hierarchy": "Task Hierarchy",
+			          "HierarchyLevel": "Task"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "task": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "chore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "errand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "job": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "commission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "undertaking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "brief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.task_hierarchy.sub_task": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "Hierarchy": "Task Hierarchy",
+			          "HierarchyLevel": "Sub Task"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sub task": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sub chore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub assignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub errand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sub job": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub mission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub commission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub undertaking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sub brief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.actual_end.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual end date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_end.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual end year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual end yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "end yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "actual completion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual conclusion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual expiration year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "real end year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_end.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual end quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual end qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "end qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "actual completion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual conclusion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual expiration quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "real end quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_end.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual end month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual end mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "end mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "actual completion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual conclusion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual expiration month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "real end month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ganttdata.actual_end.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "VariationSource": "ActualEnd",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual end day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "actual completion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual conclusion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "actual expiration day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "completion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "real end day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "existent end day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "tangible end day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "actual close day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity__measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.percent_complete": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "PercentComplete"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "percent complete": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PercentComplete": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "percentage complete": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "ratio complete": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "percentile complete": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "part complete": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "proportion complete": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "fraction complete": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.start_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "StartDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "start date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StartDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "start period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "commencement date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "inception date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "kickoff date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "beginning date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "first date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "initiation date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "launch date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "kick off date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity__measure.end_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "EndDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "end date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EndDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "end moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "end period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "culmination date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "completion date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "conclusion date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "expiration date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "cease date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "end time": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "close date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "finish date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity__measure.planned_start_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "PlannedStartDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned start date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PlannedStartDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "planned start moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "planned start period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "planned commencement date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "planned inception date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "planned kickoff date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "planned beginning date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "planned first date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "planned initiation date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "planned launch date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "planned kick off date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.484
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity__measure.planned_end_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "PlannedEndDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "planned end date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PlannedEndDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "planned end moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "planned end period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "planned culmination date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "planned completion date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned conclusion date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned expiration date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "planned cease date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "planned end time": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "planned close date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "planned finish date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity__measure.delay_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "DelayStatus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delay status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DelayStatus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "delay category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delay importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delay prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delay prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "delay condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "delay class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "ganttdata.task_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "gantt-data",
+			          "ConceptualProperty": "Task Label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "task label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "task sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "task tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "task decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "task name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.total_tasks": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Total Tasks"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total tasks": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate task": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall task": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total errand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total chore": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "total duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "total assignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "total job": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total mission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total commission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.total_phases": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Total Phases"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total phases": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "phases": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total chapter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rung": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.timeline_range": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Timeline Range"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "timeline range": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "timeline variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "timeline series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "timeline assortment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "timeline collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "timeline gamut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "timeline selection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "timeline choice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "timeline array": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "timeline kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "timeline sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.calendar_days": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Calendar Days"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar days": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "calendar existence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "calendar being": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar living": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar eras": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "calendar generation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "calendar epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "calendar period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "calendar age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.duration_weeks": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Duration Weeks"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duration weeks": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.duration_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "DurationLabel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duration label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DurationLabel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "duration sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "duration tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "duration decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "duration name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        },
+			        {
+			          "Days": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.task_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "TaskStatus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "task status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TaskStatus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "task category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "task importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "task prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "task prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "task condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "task class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.week_range_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "WeekRangeLabel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week range label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WeekRangeLabel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "range label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "week range sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "range sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "week range tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "week range decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "range tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "range decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "week range name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.604
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.date_range_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "DateRangeLabel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date range label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DateRangeLabel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "range label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date range sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "range sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date range tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "date range decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "range tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "range decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "moment range label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "Dates": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "ganttdata_actual_end_date_hierarchy_has_ganttdata_actual_end_month": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_end.month": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_end.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_end_date_hierarchies_have_actual_end_months"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_end_date_hierarchy_has_ganttdata_actual_end_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_end.quarter": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_end.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_end_date_hierarchies_have_actual_end_quarters"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_end_date_hierarchy_has_ganttdata_actual_end_year": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_end.year": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_end.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_end_date_hierarchies_have_actual_end_years"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_end_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_end": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end"
+			          }
+			        },
+			        "ganttdata.actual_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_end"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_end.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_ends_have_actual_end_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "ganttdata_task_hierarchy_task_has_ganttdata_task_hierarchy_sub_task": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.task_hierarchy.task": {
+			          "Target": {
+			            "Entity": "ganttdata.task_hierarchy.task"
+			          }
+			        },
+			        "ganttdata.task_hierarchy.sub_task": {
+			          "Target": {
+			            "Entity": "ganttdata.task_hierarchy.sub_task"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.task_hierarchy.task"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.task_hierarchy.sub_task"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tasks_have_sub_tasks"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.task_hierarchy.sub_task"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.task_hierarchy.task"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sub_tasks_have_tasks"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ganttdata.task_hierarchy.sub_task"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ganttdata.task_hierarchy.task"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sub_tasks_are_in_tasks"
+			        }
+			      ]
+			    },
+			    "ganttdata_task_hierarchy_has_sub_task": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.task_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.task_hierarchy"
+			          }
+			        },
+			        "ganttdata.task_hierarchy.sub_task": {
+			          "Target": {
+			            "Entity": "ganttdata.task_hierarchy.sub_task"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.task_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.task_hierarchy.sub_task"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "task_hierarchies_have_sub_tasks"
+			        }
+			      ]
+			    },
+			    "ganttdata_task_hierarchy_has_task": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.task_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.task_hierarchy"
+			          }
+			        },
+			        "ganttdata.task_hierarchy.task": {
+			          "Target": {
+			            "Entity": "ganttdata.task_hierarchy.task"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.task_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.task_hierarchy.task"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "task_hierarchies_have_tasks"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_end_date_hierarchy_has_ganttdata_planned_end_day": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_end.day": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_end.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_end_date_hierarchies_have_planned_end_days"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_end_date_hierarchy_has_ganttdata_planned_end_month": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_end.month": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_end.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_end_date_hierarchies_have_planned_end_months"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_end_date_hierarchy_has_ganttdata_planned_end_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_end.quarter": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_end.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_end_date_hierarchies_have_planned_end_quarters"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_end_date_hierarchy_has_ganttdata_planned_end_year": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_end.year": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_end.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_end_date_hierarchies_have_planned_end_years"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_end_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_end": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end"
+			          }
+			        },
+			        "ganttdata.planned_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_end"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_end.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_ends_have_planned_end_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_start_date_hierarchy_has_ganttdata_planned_start_day": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_start.day": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_start.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_start_date_hierarchies_have_planned_start_days"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_start_date_hierarchy_has_ganttdata_planned_start_month": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_start.month": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_start.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_start_date_hierarchies_have_planned_start_months"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_start_date_hierarchy_has_ganttdata_planned_start_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_start.quarter": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_start.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_start_date_hierarchies_have_planned_start_quarters"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_start_date_hierarchy_has_ganttdata_planned_start_year": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.planned_start.year": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_start.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_start_date_hierarchies_have_planned_start_years"
+			        }
+			      ]
+			    },
+			    "ganttdata_planned_start_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.planned_start": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start"
+			          }
+			        },
+			        "ganttdata.planned_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.planned_start"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_start.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "planned_starts_have_planned_start_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_start_date_hierarchy_has_ganttdata_actual_start_day": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_start.day": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_start.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_start_date_hierarchies_have_actual_start_days"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_start_date_hierarchy_has_ganttdata_actual_start_month": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_start.month": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_start.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_start_date_hierarchies_have_actual_start_months"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_start_date_hierarchy_has_ganttdata_actual_start_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_start.quarter": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_start.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_start_date_hierarchies_have_actual_start_quarters"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_start_date_hierarchy_has_ganttdata_actual_start_year": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_start.year": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_start.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_start.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_start_date_hierarchies_have_actual_start_years"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_start_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_start": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start"
+			          }
+			        },
+			        "ganttdata.actual_start.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_start"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_start.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_starts_have_actual_start_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_date_range_label": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.date_range_label": {
+			          "Target": {
+			            "Entity": "entity__measure.date_range_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.date_range_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_date_range_label"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_week_range_label": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.week_range_label": {
+			          "Target": {
+			            "Entity": "entity__measure.week_range_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.week_range_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_week_range_label"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_task_status": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.task_status": {
+			          "Target": {
+			            "Entity": "entity__measure.task_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.task_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_task_status"
+			        }
+			      ]
+			    },
+			    "entity__measure_has_duration_label": {
+			      "Binding": {
+			        "ConceptualEntity": "_Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__measure": {
+			          "Target": {
+			            "Entity": "entity__measure"
+			          }
+			        },
+			        "entity__measure.duration_label": {
+			          "Target": {
+			            "Entity": "entity__measure.duration_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__measure"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.duration_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_measures_have_duration_label"
+			        }
+			      ]
+			    },
+			    "entity__measure_has_duration_weeks": {
+			      "Binding": {
+			        "ConceptualEntity": "_Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__measure": {
+			          "Target": {
+			            "Entity": "entity__measure"
+			          }
+			        },
+			        "entity__measure.duration_weeks": {
+			          "Target": {
+			            "Entity": "entity__measure.duration_weeks"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__measure"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.duration_weeks"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_measures_have_duration_weeks"
+			        }
+			      ]
+			    },
+			    "entity__measure_has_calendar_days": {
+			      "Binding": {
+			        "ConceptualEntity": "_Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__measure": {
+			          "Target": {
+			            "Entity": "entity__measure"
+			          }
+			        },
+			        "entity__measure.calendar_days": {
+			          "Target": {
+			            "Entity": "entity__measure.calendar_days"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__measure"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.calendar_days"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_measures_have_calendar_days"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_timeline_range": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.timeline_range": {
+			          "Target": {
+			            "Entity": "entity__measure.timeline_range"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.timeline_range"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_timeline_range"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_total_phases": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.total_phases": {
+			          "Target": {
+			            "Entity": "entity__measure.total_phases"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.total_phases"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_total_phases"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_total_tasks": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.total_tasks": {
+			          "Target": {
+			            "Entity": "entity__measure.total_tasks"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.total_tasks"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_total_tasks"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_task_label": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.task_label": {
+			          "Target": {
+			            "Entity": "ganttdata.task_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.task_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_task_labels"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_delay_status": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.delay_status": {
+			          "Target": {
+			            "Entity": "entity__measure.delay_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.delay_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_delay_status"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_planned_end_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.planned_end_date": {
+			          "Target": {
+			            "Entity": "entity__measure.planned_end_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.planned_end_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_planned_end_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_planned_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.planned_start_date": {
+			          "Target": {
+			            "Entity": "entity__measure.planned_start_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.planned_start_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_planned_start_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_end_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.end_date": {
+			          "Target": {
+			            "Entity": "entity__measure.end_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.end_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_end_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.start_date": {
+			          "Target": {
+			            "Entity": "entity__measure.start_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.start_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_start_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_entity__measure_percent_complete": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.percent_complete": {
+			          "Target": {
+			            "Entity": "entity__measure.percent_complete"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.percent_complete"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_percent_complete"
+			        }
+			      ]
+			    },
+			    "entity__measure_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "_Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__measure": {
+			          "Target": {
+			            "Entity": "entity__measure"
+			          }
+			        },
+			        "entity__measure.value": {
+			          "Target": {
+			            "Entity": "entity__measure.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__measure"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_measures_have_values"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_task_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.task_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.task_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.task_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_task_hierarchies"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_planned_end": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.planned_end": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_end"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_planned_ends"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_planned_start": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.planned_start": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.planned_start"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_planned_starts"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_connect_to": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.connect_to": {
+			          "Target": {
+			            "Entity": "ganttdata.connect_to"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.connect_to"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_connect_to"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Verbs": [
+			              {
+			                "connect": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "to": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "ganttdata.connect_to"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "ganttdata_connect_to_connect_to"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_resource_name": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.resource_name": {
+			          "Target": {
+			            "Entity": "ganttdata.resource_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.resource_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_resource_names"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_progress": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.progress": {
+			          "Target": {
+			            "Entity": "ganttdata.progress"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.progress"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_progresses"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_actual_end": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.actual_end": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_end"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_actual_ends"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_actual_start": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.actual_start": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_start"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_start"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_actual_starts"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_sub_task": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.sub_task": {
+			          "Target": {
+			            "Entity": "ganttdata.sub_task"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.sub_task"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_sub_tasks"
+			        }
+			      ]
+			    },
+			    "ganttdata_has_task": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.task": {
+			          "Target": {
+			            "Entity": "ganttdata.task"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.task"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ganttdata_have_tasks"
+			        }
+			      ]
+			    },
+			    "ganttdata_is_planned_on_entity__measure_planned_end_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.planned_end_date": {
+			          "Target": {
+			            "Entity": "entity__measure.planned_end_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "entity__measure.planned_end_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "plan": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ganttdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "ganttdata_are_planned_on_planned_end_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_is_planned_on_entity__measure_planned_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.planned_start_date": {
+			          "Target": {
+			            "Entity": "entity__measure.planned_start_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "entity__measure.planned_start_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "plan": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ganttdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "ganttdata_are_planned_on_planned_start_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_is_ended_on_entity__measure_end_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.end_date": {
+			          "Target": {
+			            "Entity": "entity__measure.end_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "entity__measure.end_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "end": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ganttdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "ganttdata_are_ended_on_end_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_is_started_on_entity__measure_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "entity__measure.start_date": {
+			          "Target": {
+			            "Entity": "entity__measure.start_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "entity__measure.start_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "start": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ganttdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "ganttdata_are_started_on_start_date"
+			        }
+			      ]
+			    },
+			    "ganttdata_is_planned_on_planned_end": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.planned_end": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_end"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "ganttdata.planned_end"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "plan": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ganttdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "ganttdata_are_planned_on_planned_ends"
+			        }
+			      ]
+			    },
+			    "ganttdata_is_planned_on_planned_start": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata": {
+			          "Target": {
+			            "Entity": "ganttdata"
+			          }
+			        },
+			        "ganttdata.planned_start": {
+			          "Target": {
+			            "Entity": "ganttdata.planned_start"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "ganttdata.planned_start"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "plan": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ganttdata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "ganttdata_are_planned_on_planned_starts"
+			        }
+			      ]
+			    },
+			    "ganttdata_actual_end_date_hierarchy_has_ganttdata_actual_end_day": {
+			      "Binding": {
+			        "ConceptualEntity": "gantt-data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ganttdata.actual_end.date_hierarchy": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.date_hierarchy"
+			          }
+			        },
+			        "ganttdata.actual_end.day": {
+			          "Target": {
+			            "Entity": "ganttdata.actual_end.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ganttdata.actual_end.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "ganttdata.actual_end.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "actual_end_date_hierarchies_have_actual_end_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["gantt-data"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table gantt-data
+ref table DateTableTemplate_2b28a6f9-1cc9-4074-9ea7-449a4bcf98c6
+ref table LocalDateTable_74318dca-b6b6-4cf0-b634-2d4d5fde0cd0
+ref table LocalDateTable_f97c0594-2bd1-4010-a9d4-0c7bc9966239
+ref table LocalDateTable_f97e0bc3-a134-4b42-a91c-7dd476e14d0f
+ref table _Measures
+ref table LocalDateTable_305588cd-8033-496a-8bcb-8e227dd55180
+
+ref cultureInfo en-US
+
